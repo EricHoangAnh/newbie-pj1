@@ -1,0 +1,88 @@
+/**
+ * /* Header
+ *
+ * @format
+ */
+
+.header-bar {
+  height: 50px;
+  background-color: #29303b;
+  display: flex;
+  justify-content: space-between;
+}
+.header-course-name {
+  color: #fff;
+  line-height: 50px;
+}
+.header-bar button {
+  border: none;
+}
+.header-bar .menu-list {
+  line-height: 50px;
+  background-color: transparent;
+}
+
+/*  */
+
+/* Courses-menu */
+.courses-menu {
+  width: 23%;
+  max-height: 100%;
+  bottom: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  overflow-y: overlay;
+  overscroll-behavior: contain;
+  margin-top: 50px;
+  z-index: 2;
+  /* display: none; */
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #29303b;
+  border-radius: 10px;
+}
+
+/*  */
+
+/* content */
+.content {
+  bottom: 50px;
+  left: 0;
+  margin-top: 50px;
+  overflow-x: hidden;
+  overflow-y: overlay;
+  overscroll-behavior: contain;
+  position: fixed !important;
+  top: 0;
+  width: 77%;
+  height: auto;
+}
+.lesson-video {
+  display: flex;
+  justify-content: center;
+}
+.lesson-video video {
+  width: 100%;
+}
+/*  */
+
+/* footer */
+.course-video-footer {
+  height: 50px;
+  background-color: #f0f0f0;
+}
+.course-video-footer {
+}
+/*  */
+
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+}
+
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}
